@@ -1,0 +1,121 @@
+/*Limpar formatações padrões*/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 1em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background: rgb(235, 235, 235);
+}
+
+/*
+**** Layout da página ****
+*/
+#initial-page-header {
+    background: #f7b600;
+    padding: 15px;
+    text-align: center;
+}
+
+#area-logo, #area-menu {
+    padding: 10px;
+}
+
+#area-principal {
+    width: 920px;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+#principal-posts {
+    width: 660px;
+    float: left;
+}
+
+#side-area {
+    width: 240px;
+    float: right;
+}
+
+#baseboard {
+    text-align: center;
+    clear: both;
+    padding: 15px;
+    background: #CCC;
+}
+
+.post {
+    padding: 20px;
+    margin-bottom: 20px;
+    background: #FFF;
+}
+
+.side-content {
+    background: #FFF;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+/*
+**** Formatações do Menu ****
+*/
+a {
+    text-decoration: none;
+}
+
+a:link, a:visited {
+    color: #f7b600;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+#initial-page-header a:link, #initial-page-header a:visited {
+    color: #FFF;
+    padding: 8px 12px;
+}
+
+#initial-page-header a:hover {
+    color: #f7b600;
+    background: #FFF;
+    text-decoration: none;
+}
+
+/*
+**** Formatações Gerais ****
+*/
+h1 {
+    color: #4e4e4e;
+    font-size: 2.5em;
+}
+
+h2 {
+    color: #f7b600;
+}
+
+h3 {
+    color: #565656;
+    background: #CCC;
+    padding: 5px;
+}
+
+.white {
+    color: white;
+}
+
+.data-postagem {
+    display: block;
+    font-size: 0.8em;
+    border-bottom: solid #F4F4F4;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+.text-side-post {
+    font-size: 0.8em;
+    padding: 5px;
+    border-bottom: #CCC 2px dotted;
+}
